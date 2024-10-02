@@ -1,0 +1,437 @@
+/*MyBank Dashboard designs*/
+*{margin:0;
+    font-family: Arial, Helvetica, sans-serif;}
+    h1{color:white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body{background-color: #eee;}
+.Welcome{
+    text-shadow: #565454 0.2em 1px 1px;
+    Width:100%;
+    height:10em;
+    background-color:royalblue;
+    
+}
+a{text-decoration: none;}
+#center{
+    justify-content: center;
+}
+.ChooseAccount{
+    color:grey;
+    position:absolute;
+    margin-top: -3em;
+    margin-left:35em;
+}
+.Totalbalance{
+    box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+    position:absolute;
+    background-color: white;
+    border-radius: 5px;
+    margin-top:-7em;
+    padding:2em 5em;
+    margin-left: 26em;
+}
+.tb{
+    display:flex;
+    
+}
+.Deposit_button{
+    box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+    padding:1em;
+    display: block;
+    justify-content: center;
+    background-color:rgb(31, 163, 31);
+    color:white;
+    width:1.5em;
+    border-radius: 5px;
+    }
+
+    .Deposit_button:hover{
+        background-color: white;
+        color:rgb(31, 163, 31);
+        border: 1px solid rgb(31, 163, 31);
+       
+        }
+.Withdraw_button{
+    box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+    padding:1em;
+    display: block;
+    justify-content: center;
+    background-color:royalblue;
+    color:white;
+    width:1.5em;
+    border-radius: 5px;
+    margin-left: 2em;
+}
+.Withdraw_button:hover{
+    background-color:white;
+    color:royalblue;
+    border:1px solid royalblue;
+    cursor:pointer;
+}
+.Deposit_text{
+    font-size:12px;
+    margin-left:5px
+ }
+.Withdraw_text{
+   font-size:12px;
+   margin-left:34px;
+}
+/*.Withdraw_text{
+    margin-left: 2em; 
+}*/
+
+.Action_buttons{
+    display:flex;
+    margin-top:1em;
+    margin-left:6em;
+}
+.Banks{
+    box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+    background-color: white;
+    width:8em;
+    height:5em;
+    margin-left: 2em;
+    border-radius: 5px;
+    padding:1em
+}
+
+.Banks:hover{
+   border:1px royalblue;
+   cursor: pointer;
+   background-color: royalblue;
+   color:#fff;
+}
+.Banks_container{
+    margin:10em 5em 0em 17em;
+    display:flex;
+
+}
+
+.Banks_container p{
+    font-size: 1.1em;
+}
+.Totalbalance2{
+    background-color: white;
+    width:15em;
+    height:7em;
+    margin: 2em 2em 0em 0em;
+    border-radius: 5px;
+}
+.tb2{
+    padding-top: 1em;
+}
+.totalfromallaccounts{
+   margin-top:2em;
+    color: grey;
+}
+.Transactions{
+    margin-top: 4em;
+    display:flex;
+    width:40em;
+    height:10em;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.transactions{
+    position:absolute;
+    display:flex;
+    margin-left: 25em;
+    margin-top:-2em;
+
+}
+.History{
+margin-top: 4em;
+    display:flex;
+    width:40em;
+    height:8em;
+    color: grey;
+    border-radius: 5px;
+    justify-content: center;
+}
+.copyright{
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    margin-bottom:0em;
+    height:2em;
+    margin-top:-2em
+}
+.well{ color:white; margin-left: 1em;}
+/*for processing payment*/
+.payment{color:#565454;margin-top:-5em ;margin-left:50em;}
+.processing{
+    background-color: white; 
+    box-shadow: #b6b2b2 0.3px 0.8px 0.6em; 
+    padding:1em;
+    margin-top:12em;
+    width:20em;
+    border-radius:10px;
+    margin-bottom:1em
+}
+
+.processing_text{
+    color:royalblue;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 1em;
+}
+.rotate{
+    margin-top:10px;
+    width:50px;
+    height:50px;
+    border:12px solid #eee;
+    border-radius: 50%;
+    border-right-color: royalblue;
+    animation: spin 1s ease infinite;
+   
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.wrongpin_container{background-color: white;
+     box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+     padding:1em;
+     margin-top:12em; 
+     width:20em}
+.wrong-pin{
+    color:red;
+    font-family:'Courier New', Courier, monospace
+}
+
+/*responsiveness*/
+
+@media (max-width:760px){
+
+
+    *{margin:0;
+        font-family: Arial, Helvetica, sans-serif;}
+        h1{color:white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    body{background-color: #eee;}
+    .Welcome{
+        text-shadow: #565454 0.2em 1px 1px;
+        Width:100%;
+        height:12em;
+        background-color:royalblue;
+        
+    }
+    a{text-decoration: none;}
+    #center{
+        justify-content: center;
+    }
+    .ChooseAccount{
+        color:grey;
+        position:absolute;
+        margin-top: -3em;
+        margin-left:2em;
+    }
+    .Totalbalance{
+        box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+        position:absolute;
+        background-color: white;
+        border-radius: 5px;
+        margin-top:-6em;
+        padding:2px 2px;
+        margin-left: 12px;
+        width:90%
+    }
+    .tb{
+        display:block
+        
+    }
+    .well{color:white; margin-left: 0.5em; position: absolute; margin-top:1.5em} 
+    .Deposit_button{
+        box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+        padding:1em;
+        display: block;
+        justify-content: center;
+        background-color:rgb(31, 163, 31);
+        color:white;
+        width:1.5em;
+        border-radius: 5px;
+        }
+    
+        .Deposit_button:hover{
+            background-color: white;
+            color:rgb(31, 163, 31);
+            border: 1px solid rgb(31, 163, 31);
+           
+            }
+    .Withdraw_button{
+        box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+        padding:1em;
+        display: block;
+        justify-content: center;
+        background-color:royalblue;
+        color:white;
+        width:1.5em;
+        border-radius: 5px;
+        margin-left: 2em;
+    }
+    .Withdraw_button:hover{
+        background-color:white;
+        color:royalblue;
+        border:1px solid royalblue;
+        cursor:pointer;
+    }
+    .Deposit_text{
+        font-size:12px;
+        margin-left:5px
+     }
+    .Withdraw_text{
+       font-size:12px;
+       margin-left:34px;
+    }
+    
+    .Action_buttons{
+        display:flex;
+        margin-top:3em;
+        margin-left:3em;
+    }
+    .Banks{
+        box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+        background-color: white;
+        width:9em;
+        height:5em;
+        margin-left: 2em;
+        border-radius: 5px;
+        padding:1em
+    }
+    
+    .Banks:hover{
+       border:1px royalblue;
+       cursor: pointer;
+       background-color: royalblue;
+       color:#fff;
+    }
+    .Banks_container{
+        margin:10em 2em 0em -1.2em;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 5px;
+    }
+
+    
+
+
+    .Totalbalance2{
+        background-color: white;
+        width:15em;
+        height:7em;
+        margin: 2em 2em 0em 1em;
+        border-radius: 5px;
+    }
+    .tb2{
+        padding-top: 1em;
+    }
+    .totalfromallaccounts{
+       margin-top:2em;
+        color: grey;
+    }
+    .Transactions{
+        margin-top: 4em;
+        display:flex;
+        width:16em;
+        height:8em;
+        background-color: white;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .viewall{margin-left:5em; color:royalblue}
+    .transactions{
+        position:absolute;
+        display:flex;
+        margin-left: 1em;
+        margin-top:-2em;
+    
+    }
+    .History{
+    margin-top: 4em;
+        display:flex;
+        width:40em;
+        height:8em;
+        color: grey;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .copyright{
+        background-color: rgba(0,0,0,0.8);
+        color:white;
+        margin-bottom:0em;
+        height:2em;
+        margin-top:2em;
+        padding:1em
+    }
+
+
+/*for processing payment*/
+.payment{color:#565454;margin-top:-6em ;position:absolute;margin-left: 5em;}
+.processing{
+    background-color: white; 
+    box-shadow: #b6b2b2 0.3px 0.8px 0.6em; 
+    padding:1em;
+    margin-top:15em;
+    width:10em;
+    border-radius:10px
+}
+
+.processing_text{
+    color:royalblue;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 1em;
+}
+.rotate{
+    margin-top:10px;
+    width:30px;
+    height:30px;
+    border:10px solid #eee;
+    border-radius: 50%;
+    border-right-color: royalblue;
+    animation: spin 1s ease infinite;
+   
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.wrongpin_container{background-color: white;
+    box-shadow: #b6b2b2 0.3px 0.8px 0.6em;
+    padding:1em;
+    margin-top:12em;
+    width:12em}
+.wrong-pin{
+   color:red;
+   font-family:'Courier New', Courier, monospace
+   
+}
+
+    .Banks_container{
+        display:flex;
+        margin-left: 2em;
+    }
+
+    .ChooseAccount{
+        margin-left:5em;
+    }
+}
+
+@media (max-width:430px){
+    .Banks{
+        width:7em;
+        height:5em;
+    }
+
+    .Banks_container{
+        margin-left: .1em;
+        display:grid;
+    }
+}
+
+

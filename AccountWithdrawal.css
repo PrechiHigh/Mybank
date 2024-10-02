@@ -1,0 +1,87 @@
+/* Connected to paypalWithdraw, venmo and other accounts */
+body{background-color: #eee;}
+
+.formcontainer{
+    
+}
+.Transactions{
+    margin-top: 4em;
+    display:flex;
+    width:40em;
+    height:15em;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+}
+.History{
+    margin-top: 8em;
+        display:flex;
+        width:40em;
+        height:8em;
+        color: grey;
+        border-radius: 5px;
+        justify-content: center;
+    }
+.formelement{
+    background-color: rgba(239, 237, 237, 0.426);
+    width:18em;
+    height:2em;
+    margin-bottom:1em;
+    border-radius:5px;
+    border:1px solid royalblue
+    }
+    .formelement2{
+    background-color: rgba(239, 237, 237, 0.426);
+    width:18em;
+    height:2.5em;
+    margin-bottom:1em;
+    border-radius:5px;
+    background-color: royalblue;
+    color:white;
+    }
+
+
+@media only screen and (max-width:760px){
+
+    /* Connected to paypalWithdraw, venmo and other accounts */
+body{background-color: #eee;}
+
+.formcontainer{
+    
+}
+.Transactions{
+    margin-top: 4em;
+    display:flex;
+    width:15em;
+    height:15em;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    margin-bottom:1em
+}
+.History{
+    margin-top: 8em;
+        display:flex;
+       
+        color: grey;
+        border-radius: 5px;
+        justify-content: center;
+    }
+.formelement{
+    background-color: rgba(239, 237, 237, 0.426);
+    width:18em;
+    height:2em;
+    margin-bottom:1em;
+    border-radius:5px;
+    border:1px solid royalblue
+    }
+    .formelement2{
+    background-color: rgba(239, 237, 237, 0.426);
+    width:18em;
+    height:2.5em;
+    margin-bottom:1em;
+    border-radius:5px;
+    background-color: royalblue;
+    color:white;
+    }
+}
